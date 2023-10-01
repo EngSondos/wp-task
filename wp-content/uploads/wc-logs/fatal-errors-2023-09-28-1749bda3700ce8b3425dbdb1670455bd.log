@@ -1,0 +1,52 @@
+2023-09-28T18:54:57+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/plugins/get_orders_in_day/get_order_in_day.php:120
+Stack trace:
+#0 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php(308): get_order_count_in_day(Object(WP))
+#1 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#4 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/functions.php(1334): WP->main(Array)
+#5 /opt/lampp/htdocs/wordpressnew/wordpress/wp-admin/includes/post.php(1259): wp(Array)
+#6 /opt/lampp/htdocs/wordpressnew/wordpress/wp-admin/includes/class-wp-posts-list-table.php(165): wp_edit_posts_query()
+#7 /opt/lampp/htdocs/wordpressnew/wordpress/wp-admin/edit.php(235): WP_Posts_List_Table->prepare_items()
+#8 {main}
+  thrown in /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/plugins/get_orders_in_day/get_order_in_day.php on line 120
+
+2023-09-28T18:55:17+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/plugins/get_orders_in_day/get_order_in_day.php:120
+Stack trace:
+#0 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php(308): get_order_count_in_day(Object(WP))
+#1 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#4 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/functions.php(1334): WP->main(Array)
+#5 /opt/lampp/htdocs/wordpressnew/wordpress/wp-admin/includes/post.php(1259): wp(Array)
+#6 /opt/lampp/htdocs/wordpressnew/wordpress/wp-admin/includes/class-wp-posts-list-table.php(165): wp_edit_posts_query()
+#7 /opt/lampp/htdocs/wordpressnew/wordpress/wp-admin/edit.php(235): WP_Posts_List_Table->prepare_items()
+#8 {main}
+  thrown in /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/plugins/get_orders_in_day/get_order_in_day.php on line 120
+
+2023-09-28T18:55:53+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/plugins/get_orders_in_day/get_order_in_day.php:120
+Stack trace:
+#0 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php(308): get_order_count_in_day(Object(WP))
+#1 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#4 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/functions.php(1334): WP->main(Array)
+#5 /opt/lampp/htdocs/wordpressnew/wordpress/wp-admin/includes/post.php(1259): wp(Array)
+#6 /opt/lampp/htdocs/wordpressnew/wordpress/wp-admin/includes/class-wp-posts-list-table.php(165): wp_edit_posts_query()
+#7 /opt/lampp/htdocs/wordpressnew/wordpress/wp-admin/edit.php(235): WP_Posts_List_Table->prepare_items()
+#8 {main}
+  thrown in /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/plugins/get_orders_in_day/get_order_in_day.php on line 120
+
+2023-09-28T18:56:07+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/plugins/get_orders_in_day/get_order_in_day.php:120
+Stack trace:
+#0 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php(308): get_order_count_in_day(Object(WP))
+#1 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#4 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/functions.php(1334): WP->main(Array)
+#5 /opt/lampp/htdocs/wordpressnew/wordpress/wp-admin/includes/post.php(1259): wp(Array)
+#6 /opt/lampp/htdocs/wordpressnew/wordpress/wp-admin/includes/class-wp-posts-list-table.php(165): wp_edit_posts_query()
+#7 /opt/lampp/htdocs/wordpressnew/wordpress/wp-admin/edit.php(235): WP_Posts_List_Table->prepare_items()
+#8 {main}
+  thrown in /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/plugins/get_orders_in_day/get_order_in_day.php on line 120
+

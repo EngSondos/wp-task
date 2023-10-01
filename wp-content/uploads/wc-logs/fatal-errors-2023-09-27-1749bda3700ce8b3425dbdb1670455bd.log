@@ -1,0 +1,94 @@
+2023-09-27T02:59:15+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "getAllCategories" not found or invalid function name in /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/themes/twentytwentyone/product-template.php(32): do_action('my_action')
+#3 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpressnew/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpressnew/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#6 {main}
+  thrown in /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php on line 308
+
+2023-09-27T03:10:24+00:00 CRITICAL syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/themes/twentytwentyone/product-template.php on line 29
+
+2023-09-27T03:17:14+00:00 CRITICAL Cannot redeclare getProductByCategoryId() (previously declared in /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/themes/twentytwentyone/product-template.php:40) in /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/themes/twentytwentyone/product-template.php on line 40
+
+2023-09-27T08:53:38+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_post_meta(), 0 passed in /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/themes/twentytwentyone/product-template.php on line 65 and at least 1 expected in /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/post.php:2491
+Stack trace:
+#0 /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/themes/twentytwentyone/product-template.php(65): get_post_meta()
+#1 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php(308): getProductByCategoryId('')
+#2 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/themes/twentytwentyone/product-template.php(79): do_action('my_action')
+#5 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/wordpressnew/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#7 /opt/lampp/htdocs/wordpressnew/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#8 {main}
+  thrown in /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/post.php on line 2491
+
+2023-09-27T08:53:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_post_meta(), 0 passed in /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/themes/twentytwentyone/product-template.php on line 65 and at least 1 expected in /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/post.php:2491
+Stack trace:
+#0 /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/themes/twentytwentyone/product-template.php(65): get_post_meta()
+#1 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php(308): getProductByCategoryId('')
+#2 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/themes/twentytwentyone/product-template.php(79): do_action('my_action')
+#5 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/wordpressnew/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#7 /opt/lampp/htdocs/wordpressnew/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#8 {main}
+  thrown in /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/post.php on line 2491
+
+2023-09-27T09:02:11+00:00 CRITICAL Unclosed '{' on line 14 in /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/themes/twentytwentyone/product-template.php on line 115
+
+2023-09-27T13:24:40+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/plugins/woocommerce/includes/admin/reports/class-wc-admin-report.php:135
+Stack trace:
+#0 /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/plugins/get_orders_in_day/get_order_in_day.php(28): WC_Admin_Report->get_order_report_data(Array)
+#1 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php(308): get_order_count_in_day(Object(WP))
+#2 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#5 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/functions.php(1334): WP->main('')
+#6 /opt/lampp/htdocs/wordpressnew/wordpress/wp-blog-header.php(16): wp()
+#7 /opt/lampp/htdocs/wordpressnew/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#8 {main}
+  thrown in /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/plugins/woocommerce/includes/admin/reports/class-wc-admin-report.php on line 135
+
+2023-09-27T13:24:52+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/plugins/woocommerce/includes/admin/reports/class-wc-admin-report.php:135
+Stack trace:
+#0 /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/plugins/get_orders_in_day/get_order_in_day.php(28): WC_Admin_Report->get_order_report_data(Array)
+#1 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php(308): get_order_count_in_day(Object(WP))
+#2 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#5 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/functions.php(1334): WP->main('')
+#6 /opt/lampp/htdocs/wordpressnew/wordpress/wp-blog-header.php(16): wp()
+#7 /opt/lampp/htdocs/wordpressnew/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#8 {main}
+  thrown in /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/plugins/woocommerce/includes/admin/reports/class-wc-admin-report.php on line 135
+
+2023-09-27T13:24:53+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/plugins/woocommerce/includes/admin/reports/class-wc-admin-report.php:135
+Stack trace:
+#0 /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/plugins/get_orders_in_day/get_order_in_day.php(28): WC_Admin_Report->get_order_report_data(Array)
+#1 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php(308): get_order_count_in_day(Object(WP))
+#2 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#5 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/functions.php(1334): WP->main('')
+#6 /opt/lampp/htdocs/wordpressnew/wordpress/wp-blog-header.php(16): wp()
+#7 /opt/lampp/htdocs/wordpressnew/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#8 {main}
+  thrown in /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/plugins/woocommerce/includes/admin/reports/class-wc-admin-report.php on line 135
+
+2023-09-27T13:47:43+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/plugins/get_orders_in_day/get_order_in_day.php:17
+Stack trace:
+#0 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php(308): get_order_count_in_day(Object(WP))
+#1 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/class-wp.php(797): do_action_ref_array('wp', Array)
+#4 /opt/lampp/htdocs/wordpressnew/wordpress/wp-includes/functions.php(1334): WP->main('')
+#5 /opt/lampp/htdocs/wordpressnew/wordpress/wp-blog-header.php(16): wp()
+#6 /opt/lampp/htdocs/wordpressnew/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#7 {main}
+  thrown in /opt/lampp/htdocs/wordpressnew/wordpress/wp-content/plugins/get_orders_in_day/get_order_in_day.php on line 17
+

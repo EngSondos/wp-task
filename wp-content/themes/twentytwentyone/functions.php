@@ -579,8 +579,11 @@ function twentytwentyone_customize_preview_init() {
 		wp_get_theme()->get( 'Version' ),
 		true
 	);
+
 }
 add_action( 'customize_preview_init', 'twentytwentyone_customize_preview_init' );
+
+
 
 /**
  * Enqueue scripts for the customizer.
@@ -692,4 +695,5 @@ register_post_type('news', $args);
 }
 
 add_action('init', 'cw_post_type_news');
+
 
